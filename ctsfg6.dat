@@ -1,0 +1,102 @@
+ --------------------
+ composition n.            1
+ N acidic=  0.63419326182536451     
+ polymerization constant =   5.8584978715540918E-003
+ polianions =   5.0478773766848891E-003
+ total anions (including S=  ) =   1.2608666548954151E-002
+ total anions (excluding S=  ) =   8.4451326535441903E-003
+ total cations =  0.36580673817463549     
+ parameter p of the polymerization equation =  0.32000988963445737     
+ mean number of cations per polianion =   125.63563147444374     
+ moles of non-bridging oxygen (NBO) (O-) =  0.72481896579555238     
+ moles of free oxygen ion (O=) =   3.3972552768593012E-003
+ moles of bridging oxygen (Oø) =  0.90597704075295282     
+ NBO/T =   1.1428991908702164     
+ total sulphur anions =    4.1635338954099611E-003
+ activity of free oxygen ion aO= =  0.26943810938842638     
+ activity of polyanions (struct) =  0.40034981947425635     
+ activity of indifferentiated sulphur  =  0.33021207113731732     
+ trivalent ANION iron activity aFeO2-  =   1.9428492299369799     
+ New trivalent ANION iron activity aFeO2-  =   9.8072646741085394E-003
+ trivalent CATION iron activity aFe3+ =   0.0000000000000000     
+ New trivalent CATION iron activity aFe3+ =   0.0000000000000000     
+ CATION ferrous iron activity aFe2+  =  0.28030349667319221     
+ CATION titanium activity aTi4+ =   7.8279877411216545E-002
+ CATION cromium activity aCr3+  =   0.0000000000000000     
+ CATION phosphorous activity aP5+  =   2.1501245324760814E-002
+ CATION manganese activity aMn2+  =   6.1081324832655756E-003
+ CATION magnesium activity aMg2+  =  0.20796480273604548     
+ CATION calcium activity aCa2+  =  0.23616116561305533     
+ CATION sodium activity aNa+  =  0.12188582896776315     
+ CATION potassium activity aK+  =   4.7795450790701084E-002
+ CATION hydrogen activity aH+  =   0.0000000000000000     
+ SUM of CATION activities =   1.0000000000000002     
+                                       
+ --------------------
+ composition n.            2
+ N acidic=  0.62670151601248547     
+ polymerization constant =   7.0921257211356246E-003
+ polianions =   5.2061384235478460E-003
+ total anions (including S=  ) =   3.0521322865956897E-002
+ total anions (excluding S=  ) =   9.5717778104621558E-003
+ total cations =  0.37329848398751453     
+ parameter p of the polymerization equation =  0.32808066758539084     
+ mean number of cations per polianion =   120.37742084956029     
+ moles of non-bridging oxygen (NBO) (O-) =  0.73786568920120044     
+ moles of free oxygen ion (O=) =   4.3656393869143106E-003
+ moles of bridging oxygen (Oø) =  0.88447018742437078     
+ NBO/T =   1.1773797738611187     
+ total sulphur anions =    4.0092276221052187E-003
+ activity of free oxygen ion aO= =  0.14303571985025887     
+ activity of polyanions (struct) =  0.17057381314735567     
+ activity of indifferentiated sulphur  =  0.13135825205587864     
+ trivalent ANION iron activity aFeO2-  =  0.80261062742110367     
+ New trivalent ANION iron activity aFeO2-  =   4.1785020265648525E-003
+ trivalent CATION iron activity aFe3+ =   0.0000000000000000     
+ New trivalent CATION iron activity aFe3+ =   0.0000000000000000     
+ CATION ferrous iron activity aFe2+  =  0.27143329080217360     
+ CATION titanium activity aTi4+ =   7.5802710210533530E-002
+ CATION cromium activity aCr3+  =   0.0000000000000000     
+ CATION phosphorous activity aP5+  =   2.0820838284615079E-002
+ CATION manganese activity aMn2+  =   5.9148405933781237E-003
+ CATION magnesium activity aMg2+  =  0.20138375527824207     
+ CATION calcium activity aCa2+  =  0.22868784407911144     
+ CATION sodium activity aNa+  =  0.11802875116268549     
+ CATION potassium activity aK+  =   4.6282963457351993E-002
+ CATION hydrogen activity aH+  =   3.1645006131908751E-002
+ SUM of CATION activities =   1.0000000000000000     
+                                       
+ --------------------
+ composition n.            3
+ N acidic=  0.62053933487625268     
+ polymerization constant =   8.2524335144010773E-003
+ polianions =   5.3342342224676261E-003
+ total anions (including S=  ) =   5.0643315101962842E-002
+ total anions (excluding S=  ) =   1.0663859128636965E-002
+ total cations =  0.37946066512374732     
+ parameter p of the polymerization equation =  0.33468071121845627     
+ mean number of cations per polianion =   116.33147495896610     
+ moles of non-bridging oxygen (NBO) (O-) =  0.74826208043515596     
+ moles of free oxygen ion (O=) =   5.3296249061693390E-003
+ moles of bridging oxygen (Oø) =  0.86694762953492743     
+ NBO/T =   1.2058253818581439     
+ total sulphur anions =    3.8659502081610994E-003
+ activity of free oxygen ion aO= =  0.10523846820530855     
+ activity of polyanions (struct) =  0.10532948350098986     
+ activity of indifferentiated sulphur  =   7.6336831433281557E-002
+ trivalent ANION iron activity aFeO2-  =  0.48371118766311338     
+ New trivalent ANION iron activity aFeO2-  =   2.5802287710230401E-003
+ trivalent CATION iron activity aFe3+ =   0.0000000000000000     
+ New trivalent CATION iron activity aFe3+ =   0.0000000000000000     
+ CATION ferrous iron activity aFe2+  =  0.26439981393677559     
+ CATION titanium activity aTi4+ =   7.3838483173295000E-002
+ CATION cromium activity aCr3+  =   0.0000000000000000     
+ CATION phosphorous activity aP5+  =   2.0281321249102428E-002
+ CATION manganese activity aMn2+  =   5.7615731207217866E-003
+ CATION magnesium activity aMg2+  =  0.19616542712243451     
+ CATION calcium activity aCa2+  =  0.22276200257317594     
+ CATION sodium activity aNa+  =  0.11497034779476697     
+ CATION potassium activity aK+  =   4.5083662694437837E-002
+ CATION hydrogen activity aH+  =   5.6737368335289973E-002
+ SUM of CATION activities =   1.0000000000000000     
+                                       

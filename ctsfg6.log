@@ -1,0 +1,229 @@
+   
+ ------------- COMPOSITION            1 -----------------
+ Composition n.            1  holds Iron !!!
+ Fe2O3 =   3.6000000000000001     
+ FeO  =   10.690000000000000     
+ Poss 5 =    3.7305699481865284     
+ Poss 7 =    11.077720207253886     
+ Iteration N.            1  @ composition            1
+ 46.40  3.44  1.68 14.90  3.73  0.00 11.08  0.24  7.28  4.61  4.16  2.48  0.00
+  96.50  14.81
+ xfetot-xftot =    0.0000000000000000     
+ Fe3 =    2.6448210659025587E-002  Fe2 =    8.7280381058569251E-002
+ Fetot =   0.11372859171759483       newFetot =   0.11372859171759483     
+ redoz is =   0.51852033829571242     
+  W (charges due to modifiers) =   0.67150556240092119     
+  + + + INCIDENTAL S CAPACITIES LOG BLOCK + + +
+ F&G elect. equiv. frac. per Fe3+ =    1.3224105329512794E-002
+ F&G elect. equiv. frac. per Fe2+ =   0.28030349667319221     
+  + + + INCIDENTAL S CAPACITIES LOG BLOCK + + +
+ redox last (redoX) =   0.89041615869143331     
+ redox before (redoZ) =   0.51852033829571242     
+ Fe tot =   0.11372859171759483     
+ Fe2/Fetot calc  =   0.88597378394244508     
+ Fe2/Fetot before=   0.76744448990716019     
+ bossi =   -8.5124167184171160      xossi =   -10.000000000000000     
+ REMINDER: bossi Š ricalcolato da redox!
+ REMINDER: bossi = xossi se INPUT logfO2 = 0
+  JFLAG is            2
+
+ ENTERING CALCPROP: BEGINS THE SULPHUR DOMAIN
+ Composition treated is            1
+ FeO15f =   1.1960751687885563E-002
+ FeO15m =   0.0000000000000000     
+ FeOm =   9.9968603866433012E-002
+   
+ ------------- COMPOSITION            2 -----------------
+ Composition n.            2  holds Iron !!!
+ Fe2O3 =   3.6000000000000001     
+ FeO  =   10.690000000000000     
+ Poss 5 =    3.7081865284974094     
+ Poss 7 =    11.011253886010364     
+ Iteration N.            1  @ composition            2
+ 46.13  3.42  1.67 14.81  3.71  0.00 11.01  0.24  7.24  4.58  4.13  2.46  0.60
+  96.50  14.72
+ xfetot-xftot =    0.0000000000000000     
+ Fe3 =    2.5481590213333283E-002  Fe2 =    8.4090486591729866E-002
+ Fetot =   0.10957207680506315       newFetot =   0.10957207680506315     
+ redoz is =   0.51852033829571242     
+  W (charges due to modifiers) =   0.64696359945374782     
+  + + + INCIDENTAL S CAPACITIES LOG BLOCK + + +
+ F&G elect. equiv. frac. per Fe3+ =    1.2740795106666642E-002
+ F&G elect. equiv. frac. per Fe2+ =   0.28030349667319221     
+  + + + INCIDENTAL S CAPACITIES LOG BLOCK + + +
+  W (charges due to modifiers) =   0.66019817821332183     
+  + + + INCIDENTAL S CAPACITIES LOG BLOCK + + +
+ F&G elect. equiv. frac. per Fe3+ =    1.2740795106666642E-002
+ F&G elect. equiv. frac. per Fe2+ =   0.27425406125749086     
+  + + + INCIDENTAL S CAPACITIES LOG BLOCK + + +
+  W (charges due to modifiers) =   0.66403269456866021     
+  + + + INCIDENTAL S CAPACITIES LOG BLOCK + + +
+ F&G elect. equiv. frac. per Fe3+ =    1.2740795106666642E-002
+ F&G elect. equiv. frac. per Fe2+ =   0.27254981366082304     
+  + + + INCIDENTAL S CAPACITIES LOG BLOCK + + +
+  W (charges due to modifiers) =   0.66548849115377795     
+  + + + INCIDENTAL S CAPACITIES LOG BLOCK + + +
+ F&G elect. equiv. frac. per Fe3+ =    1.2740795106666642E-002
+ F&G elect. equiv. frac. per Fe2+ =   0.27190832021803085     
+  + + + INCIDENTAL S CAPACITIES LOG BLOCK + + +
+  W (charges due to modifiers) =   0.66609653424924442     
+  + + + INCIDENTAL S CAPACITIES LOG BLOCK + + +
+ F&G elect. equiv. frac. per Fe3+ =    1.2740795106666642E-002
+ F&G elect. equiv. frac. per Fe2+ =   0.27164128055819181     
+  + + + INCIDENTAL S CAPACITIES LOG BLOCK + + +
+  W (charges due to modifiers) =   0.66636075314837639     
+  + + + INCIDENTAL S CAPACITIES LOG BLOCK + + +
+ F&G elect. equiv. frac. per Fe3+ =    1.2740795106666642E-002
+ F&G elect. equiv. frac. per Fe2+ =   0.27152540462192959     
+  + + + INCIDENTAL S CAPACITIES LOG BLOCK + + +
+  W (charges due to modifiers) =   0.66647755966680466     
+  + + + INCIDENTAL S CAPACITIES LOG BLOCK + + +
+ F&G elect. equiv. frac. per Fe3+ =    1.2740795106666642E-002
+ F&G elect. equiv. frac. per Fe2+ =   0.27147420941947231     
+  + + + INCIDENTAL S CAPACITIES LOG BLOCK + + +
+  W (charges due to modifiers) =   0.66652959235712694     
+  + + + INCIDENTAL S CAPACITIES LOG BLOCK + + +
+ F&G elect. equiv. frac. per Fe3+ =    1.2740795106666642E-002
+ F&G elect. equiv. frac. per Fe2+ =   0.27145141019368968     
+  + + + INCIDENTAL S CAPACITIES LOG BLOCK + + +
+  W (charges due to modifiers) =   0.66655284962654504     
+  + + + INCIDENTAL S CAPACITIES LOG BLOCK + + +
+ F&G elect. equiv. frac. per Fe3+ =    1.2740795106666642E-002
+ F&G elect. equiv. frac. per Fe2+ =   0.27144122076663324     
+  + + + INCIDENTAL S CAPACITIES LOG BLOCK + + +
+  W (charges due to modifiers) =   0.66656326080256278     
+  + + + INCIDENTAL S CAPACITIES LOG BLOCK + + +
+ F&G elect. equiv. frac. per Fe3+ =    1.2740795106666642E-002
+ F&G elect. equiv. frac. per Fe2+ =   0.27143665969146297     
+  + + + INCIDENTAL S CAPACITIES LOG BLOCK + + +
+  W (charges due to modifiers) =   0.66656792455741465     
+  + + + INCIDENTAL S CAPACITIES LOG BLOCK + + +
+ F&G elect. equiv. frac. per Fe3+ =    1.2740795106666642E-002
+ F&G elect. equiv. frac. per Fe2+ =   0.27143461657751744     
+  + + + INCIDENTAL S CAPACITIES LOG BLOCK + + +
+  W (charges due to modifiers) =   0.66657001435261942     
+  + + + INCIDENTAL S CAPACITIES LOG BLOCK + + +
+ F&G elect. equiv. frac. per Fe3+ =    1.2740795106666642E-002
+ F&G elect. equiv. frac. per Fe2+ =   0.27143370108274484     
+  + + + INCIDENTAL S CAPACITIES LOG BLOCK + + +
+  W (charges due to modifiers) =   0.66657095090254193     
+  + + + INCIDENTAL S CAPACITIES LOG BLOCK + + +
+ F&G elect. equiv. frac. per Fe3+ =    1.2740795106666642E-002
+ F&G elect. equiv. frac. per Fe2+ =   0.27143329080217360     
+  + + + INCIDENTAL S CAPACITIES LOG BLOCK + + +
+ redox last (redoX) =   0.79803521336240402     
+ redox before (redoZ) =   0.51852033829571242     
+ Fe tot =   0.10957207680506315     
+ Fe2/Fetot calc  =   0.86265797996808635     
+ Fe2/Fetot before=   0.76744448990716019     
+ bossi =   -8.8819404997332327      xossi =   -10.000000000000000     
+ REMINDER: bossi Š ricalcolato da redox!
+ REMINDER: bossi = xossi se INPUT logfO2 = 0
+  JFLAG is            2
+
+ ENTERING CALCPROP: BEGINS THE SULPHUR DOMAIN
+ Composition treated is            2
+ FeO15f =   1.1721482160849662E-002
+ FeO15m =   0.0000000000000000     
+ FeOm =  0.10041630533641781     
+   
+ ------------- COMPOSITION            3 -----------------
+ Composition n.            3  holds Iron !!!
+ Fe2O3 =   3.6000000000000001     
+ FeO  =   10.690000000000000     
+ Poss 5 =    3.6858031088082899     
+ Poss 7 =    10.944787564766839     
+ Iteration N.            1  @ composition            3
+ 45.85  3.40  1.66 14.72  3.69  0.00 10.94  0.24  7.20  4.56  4.11  2.45  1.20
+  96.50  14.63
+ xfetot-xftot =    0.0000000000000000     
+ Fe3 =    2.4572610816869993E-002  Fe2 =    8.1090810389792545E-002
+ Fetot =   0.10566342120666254       newFetot =   0.10566342120666254     
+ redoz is =   0.51852033829571254     
+  W (charges due to modifiers) =   0.62388511113171707     
+  + + + INCIDENTAL S CAPACITIES LOG BLOCK + + +
+ F&G elect. equiv. frac. per Fe3+ =    1.2286305408434997E-002
+ F&G elect. equiv. frac. per Fe2+ =   0.28030349667319221     
+  + + + INCIDENTAL S CAPACITIES LOG BLOCK + + +
+  W (charges due to modifiers) =   0.64956507056468160     
+  + + + INCIDENTAL S CAPACITIES LOG BLOCK + + +
+ F&G elect. equiv. frac. per Fe3+ =    1.2286305408434997E-002
+ F&G elect. equiv. frac. per Fe2+ =   0.26839135800707542     
+  + + + INCIDENTAL S CAPACITIES LOG BLOCK + + +
+  W (charges due to modifiers) =   0.65542892414577769     
+  + + + INCIDENTAL S CAPACITIES LOG BLOCK + + +
+ F&G elect. equiv. frac. per Fe3+ =    1.2286305408434997E-002
+ F&G elect. equiv. frac. per Fe2+ =   0.26581192372486828     
+  + + + INCIDENTAL S CAPACITIES LOG BLOCK + + +
+  W (charges due to modifiers) =   0.65743671470521425     
+  + + + INCIDENTAL S CAPACITIES LOG BLOCK + + +
+ F&G elect. equiv. frac. per Fe3+ =    1.2286305408434997E-002
+ F&G elect. equiv. frac. per Fe2+ =   0.26494007950542214     
+  + + + INCIDENTAL S CAPACITIES LOG BLOCK + + +
+  W (charges due to modifiers) =   0.65819580034394520     
+  + + + INCIDENTAL S CAPACITIES LOG BLOCK + + +
+ F&G elect. equiv. frac. per Fe3+ =    1.2286305408434997E-002
+ F&G elect. equiv. frac. per Fe2+ =   0.26461194926775777     
+  + + + INCIDENTAL S CAPACITIES LOG BLOCK + + +
+  W (charges due to modifiers) =   0.65849307135199653     
+  + + + INCIDENTAL S CAPACITIES LOG BLOCK + + +
+ F&G elect. equiv. frac. per Fe3+ =    1.2286305408434997E-002
+ F&G elect. equiv. frac. per Fe2+ =   0.26448366918458571     
+  + + + INCIDENTAL S CAPACITIES LOG BLOCK + + +
+  W (charges due to modifiers) =   0.65861107215276893     
+  + + + INCIDENTAL S CAPACITIES LOG BLOCK + + +
+ F&G elect. equiv. frac. per Fe3+ =    1.2286305408434997E-002
+ F&G elect. equiv. frac. per Fe2+ =   0.26443278328276554     
+  + + + INCIDENTAL S CAPACITIES LOG BLOCK + + +
+  W (charges due to modifiers) =   0.65865816239160424     
+  + + + INCIDENTAL S CAPACITIES LOG BLOCK + + +
+ F&G elect. equiv. frac. per Fe3+ =    1.2286305408434997E-002
+ F&G elect. equiv. frac. per Fe2+ =   0.26441248185857802     
+  + + + INCIDENTAL S CAPACITIES LOG BLOCK + + +
+  W (charges due to modifiers) =   0.65867699443788430     
+  + + + INCIDENTAL S CAPACITIES LOG BLOCK + + +
+ F&G elect. equiv. frac. per Fe3+ =    1.2286305408434997E-002
+ F&G elect. equiv. frac. per Fe2+ =   0.26440436390716127     
+  + + + INCIDENTAL S CAPACITIES LOG BLOCK + + +
+  W (charges due to modifiers) =   0.65868453201762411     
+  + + + INCIDENTAL S CAPACITIES LOG BLOCK + + +
+ F&G elect. equiv. frac. per Fe3+ =    1.2286305408434997E-002
+ F&G elect. equiv. frac. per Fe2+ =   0.26440111481385065     
+  + + + INCIDENTAL S CAPACITIES LOG BLOCK + + +
+  W (charges due to modifiers) =   0.65868754997755530     
+  + + + INCIDENTAL S CAPACITIES LOG BLOCK + + +
+ F&G elect. equiv. frac. per Fe3+ =    1.2286305408434997E-002
+ F&G elect. equiv. frac. per Fe2+ =   0.26439981393677559     
+  + + + INCIDENTAL S CAPACITIES LOG BLOCK + + +
+ redox last (redoX) =   0.74270604349805125     
+ redox before (redoZ) =   0.51852033829571254     
+ Fe tot =   0.10566342120666254     
+ Fe2/Fetot calc  =   0.84685494315577237     
+ Fe2/Fetot before=   0.76744448990716030     
+ bossi =   -9.1032571791906456      xossi =   -10.000000000000000     
+ REMINDER: bossi Š ricalcolato da redox!
+ REMINDER: bossi = xossi se INPUT logfO2 = 0
+  JFLAG is            2
+
+ ENTERING CALCPROP: BEGINS THE SULPHUR DOMAIN
+ Composition treated is            3
+ FeO15f =   1.1490908105160161E-002
+ FeO15m =   0.0000000000000000     
+ FeOm =  0.10074593630555949     
+ -------------------------FINAL NEWSULF-CALLED STEP -----------
+
+ + + + BEGINNING S CAPACITIES BLOCK + + +
+ COMP            1  feo15f =   1.1960751687885563E-002
+ COMP            1  feo15m=   0.0000000000000000     
+ COMP            1  feom=   9.9968603866433012E-002
+  + + + END S CAPACITIES LOG BLOCK + + +
+ + + + BEGINNING S CAPACITIES BLOCK + + +
+ COMP            2  feo15f =   1.1721482160849662E-002
+ COMP            2  feo15m=   0.0000000000000000     
+ COMP            2  feom=  0.10041630533641781     
+  + + + END S CAPACITIES LOG BLOCK + + +
+ + + + BEGINNING S CAPACITIES BLOCK + + +
+ COMP            3  feo15f =   1.1490908105160161E-002
+ COMP            3  feo15m=   0.0000000000000000     
+ COMP            3  feom=  0.10074593630555949     
+  + + + END S CAPACITIES LOG BLOCK + + +
