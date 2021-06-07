@@ -2,7 +2,15 @@
 
 Model for prediction of sulfur redox state in magmatic liquids
 
+Copyrights (2005-2021) Roberto Moretti
+
 # Citation
+
+If you use this code in your work, please cite the following papers:
+
+Moretti, R., & Ottonello, G. (2003). A polymeric approach to the sulfide capacity of silicate slags and melts. Metallurgical and Materials Transactions B, 34(4), 399–410. [doi.org/10.1007/s11663-003-0066-1](https://doi.org/10.1007/s11663-003-0066-1)
+
+Moretti, R., & Ottonello, G. (2005). Solubility and speciation of sulfur in silicate melts: The Conjugated Toop-Samis-Flood-Grjotheim (CTSFG) model. Geochimica et Cosmochimica Acta, 69(4), 801–823. [https://doi.org/10.1016/j.gca.2004.09.006](https://doi.org/10.1016/j.gca.2004.09.006)
 
 # Licence
 
