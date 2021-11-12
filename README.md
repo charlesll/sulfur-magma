@@ -80,4 +80,15 @@ kir : something to do or not to do H2O calc
 
 ## OUTPUT FILES
 
-To write.
+The files in .jet, .s2 and .so4 contain the interesting outputs:
+
+The .JET file contains the columns:
+
+T(K) P(bar) logfO2(in) logfO2(calc) logfS2 aossi  TotAni TotCat nO= nO- nO0 NBO/T Kpol Stot(obs,wt%) Stot(calc,wt%) S_as_S2-(wt%)  S_as_S6+(wt%) S6+/tot log(KSO4/KS2)  Redox  Redoz  actFe2+ cost_FeO kflag 
+
+The .S2 file contains the columns:
+
+TK    Pbars  logfO2in  logfO2cal  logfS2  logCs(o)   logCs(c)  logKS2
+
+The .SO4 file contains the columns:
+ TK    Pbars   LogCs(o)   LogCs(c) LogKSO4        logfO2in    logfO2cal logfS2 
