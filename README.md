@@ -50,7 +50,7 @@ Run in the terminal, after compilation, run the command:
 
 This is a comma-separated text file. Please follow the example file (provided) and be careful with integer/float types of variables
 
-First line: integer, number of compositions. The name is not used, just kept for personal purpose.
+First line: integer, number of compositions (up to 300). The name is not used, just kept for personal purpose.
 
 Following lines > contain the following information:
 
@@ -68,27 +68,128 @@ Pbar: float, pressure in bar
 
 xossi_fo2 : float, oxygen fugacity (log)
 
-fs2: float, sulfur fugacity (log), initial (will be adjusted)
+fs2: float, sulfur (S2) fugacity (log), initial
 
 index_author: integer, not used, author index for development purpose   
 
 kflag : integer, 0 > use fO2 (xossi) in input, if 2 > use Fe2O3/FeO in input for calculating fO2 (bemol to correct > recalcule quantity of O2 for Fe3+)
 
-wmol : float, guess H2Omol in input, in wt%
+wmol : float, guess H2Omol in input, in wt%.
 
 kir : something to do or not to do H2O calc
 
+Please set wmol and kir at 0.01 and 0, respectively. The option is still under development and the feature does not need further exploration for the moment.
+
+For your own convenience you can of course add a note after the last input variable (kir) at  the end of each input string 
+
 ## OUTPUT FILES
 
-The files in .jet, .s2 and .so4 contain the interesting outputs:
+Four output files are produced: ctsfg6.inp, ctsfg6.S2, ctsfg6.so4, ctsfg6.jet
 
-The .JET file contains the columns:
+Cstfg6.inp returns the composition normalized to 100% for SiO2, TiO2, Al2O3, Fe2O3, Cr2O3, FeO, MnO, MgO, CaO, Na2O, K2O, P2O5, H2O. 
+Note that sulfur is excluded from normalization.
 
-T(K) P(bar) logfO2(in) logfO2(calc) logfS2 aossi  TotAni TotCat nO= nO- nO0 NBO/T Kpol Stot(obs,wt%) Stot(calc,wt%) S_as_S2-(wt%)  S_as_S6+(wt%) S6+/tot log(KSO4/KS2)  Redox  Redoz  actFe2+ cost_FeO kflag 
+Ctsfg6.s2 returns the following information:
 
-The .S2 file contains the columns:
+TK : temperature in Kelvin
 
-TK    Pbars  logfO2in  logfO2cal  logfS2  logCs(o)   logCs(c)  logKS2
+Pbars : pressure in bar 
 
-The .SO4 file contains the columns:
- TK    Pbars   LogCs(o)   LogCs(c) LogKSO4        logfO2in    logfO2cal logfS2 
+logfO2in : input logfO2 (xossi_fO2 in the input file)
+
+logfO2cal : output logfO2 (must be same as logfO2in) if kflag was set to 0 in the input file)
+
+logfS2 : input logfS2
+
+logCs(o) : initial sulfide capacity based on input data
+
+logCs(c) : calculated sulfide capacity (the one you need) after last iteration
+
+logKS2 : the equilibrium constant of the reaction 1/2S2 + O=  <=> 1/2O2 + S=   (Please remember that sulfide capacity is derived from thius quantity)
+
+
+Ctsfg6.so4  returns the following information:
+
+TK : temperature in Kelvin
+
+Pbars : pressure in bar 
+
+logCs(o) : logCs(o) : initial sulfate capacity based on input data
+
+logCs(c) : calculated sulfate capacity (the one you need) after last iteration
+
+LogKSO4 : the equilibrium constant of the reaction 1/2S2 + O= + 3/2O2 <=> SO4=   (Please remember that sulfate capacity is derived from this quantity)
+
+logfO2in : input logfO2 (xossi_fO2 in the input file)
+
+logfO2cal : output logfO2 (must be same as logfO2in if kflag was set to 0 in the input file)
+
+logfS2 : input logfS2
+
+Ctsfg6.jet  returns the following information:
+
+T(K) : temperature in Kelvin
+
+P(bar): pressure in bar
+
+logfO2in : input logfO2 (xossi_fO2 in the input file)
+
+logfO2cal : output logfO2 (must be same as logfO2in if kflag was set to 0 in the input file)
+
+logfS2 : input logfS2
+
+aossi : the activity of O= (see Moretti and Ottonello, 2003 Metall. Mat. Trans. and Moretti and Ottonello, 2005 GCA)
+
+TotAni : the amount of anions
+
+TotCat : the amount of cations
+
+nO= : the amount of free oxygens (O=)
+
+nO- : the amount of non-bridging oxygens (O-)
+
+nO0 : the amount of bridging oxygens (O0)
+
+NBO/T : the amount of non-bridging oxygens over the amount of tetrahedral units 
+
+Kpol : the polymerization constant (see Moretti and Ottonello, 2003, 2005 and references therein)
+
+Stot(obs,wt%) : the amount of S (as wt%) in input
+
+Stot(calc,wt%) :  the returned amount of S (as wt%) for input conditions
+
+S_as_S2-(wt%) : the amount of S as sulfide to the calculated amount of bulk sulfur
+
+S_as_S6+(wt%) :  the amount of S as sulfate to the ca lculated amount of bulk sulfur
+
+S6+/tot : the sulfur redox ration (varies between 0 and 1)
+
+log(KSO4/KS2) : the equilibrium constant for reaction S= + 2O2 <=> SO4=
+
+Redox : the iron redox ratio given as log(FeII/FeIII) (used for cross-check of internal features)
+
+Redoz : the iron redox ratio given as log(FeII/FeIII) (same as redox if kflag is set to 0 in input)
+         *** USE REDOZ IN ALL CASES, FOR KFLAG EITHER EQUAL TO 0 OR 2 ***
+
+actFe2+ : the ion activity of ion Fe2+
+
+cost_FeO : the equilibrium constant for reaction FeO <=> Fe2+ + O=
+
+kflag : the redox calculation option (0 or 2; see below)
+
+
+## RUNNING THE PROGRAM
+
+Just write your input. Add as many lines as you wish per run. The number of composition must be indicate in the rist row of input.txt
+
+Type "ctsfg6" (or use any other name you have given to the .exe file while compiling)
+
+Use of "kflag" in input.txt: this can be either 0 or 2 (no other options). If kflag=0 the input logfO2 values will be used, and FeO and Fe2O3 will be calculated accordingly.
+If kflag=2 the input FeO and Fe2O3 amounts (i.e. the input FeII/FeIII) will be used and logfO2 calculated accordingly.
+A redox value S6+/Stot will be calculated accordingly, which is independent of the amount of sulfur.
+
+Note that the program does not compute fS2 from given "S_tot_ppm" value in input. So, if you want to match that value, you have to change manually "logfS2" in input
+
+As outlined in reference papers (e.g. Moretti and Ottonello, 2005) fO2-fS2 pairs will give you unique pairs of dissolved S and S redox ratio for each P-T-composition condition.
+
+After running you can open ourput files in spreadsheets, plot output variables and play with them.
