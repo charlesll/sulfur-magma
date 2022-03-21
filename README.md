@@ -80,20 +80,20 @@ kir : something to do or not to do H2O calc
 
 Please set wmol and kir at 0.01 and 0, respectively. The option is still under development and the feature does not need further exploration for the moment.
 
-For your own convenience you can of course add a note after the last input variable (kir) at  the end of each input string 
+For your own convenience you can of course add a note after the last input variable (kir) at  the end of each input string
 
 ## OUTPUT FILES
 
 Four output files are produced: ctsfg6.inp, ctsfg6.S2, ctsfg6.so4, ctsfg6.jet
 
-Cstfg6.inp returns the composition normalized to 100% for SiO2, TiO2, Al2O3, Fe2O3, Cr2O3, FeO, MnO, MgO, CaO, Na2O, K2O, P2O5, H2O. 
+Cstfg6.inp returns the composition normalized to 100% for SiO2, TiO2, Al2O3, Fe2O3, Cr2O3, FeO, MnO, MgO, CaO, Na2O, K2O, P2O5, H2O.
 Note that sulfur is excluded from normalization.
 
 Ctsfg6.s2 returns the following information:
 
 TK : temperature in Kelvin
 
-Pbars : pressure in bar 
+Pbars : pressure in bar
 
 logfO2in : input logfO2 (xossi_fO2 in the input file)
 
@@ -112,7 +112,7 @@ Ctsfg6.so4  returns the following information:
 
 TK : temperature in Kelvin
 
-Pbars : pressure in bar 
+Pbars : pressure in bar
 
 logCs(o) : logCs(o) : initial sulfate capacity based on input data
 
@@ -150,7 +150,7 @@ nO- : the amount of non-bridging oxygens (O-)
 
 nO0 : the amount of bridging oxygens (O0)
 
-NBO/T : the amount of non-bridging oxygens over the amount of tetrahedral units 
+NBO/T : the amount of non-bridging oxygens over the amount of tetrahedral units
 
 Kpol : the polymerization constant (see Moretti and Ottonello, 2003, 2005 and references therein)
 
@@ -193,3 +193,9 @@ Note that the program does not compute fS2 from given "S_tot_ppm" value in input
 As outlined in reference papers (e.g. Moretti and Ottonello, 2005) fO2-fS2 pairs will give you unique pairs of dissolved S and S redox ratio for each P-T-composition condition.
 
 After running you can open ourput files in spreadsheets, plot output variables and play with them.
+
+## REMARKS
+
+CTSFG6 is not intended for inversion of measured S6+/Stot ratios and dissolved S amounts to retrieve fO2 and fS2 values. Rather, it calculates the sulfur redox state and dissolved amount from assigned fO2 and fS2 pairs at given T, P and composition. Therefore, if the user wants to retrieve fO2 from S6+/Stot measurements, he/she must manually change the input logfO2 value until the calculated S6+/Stot ratio that appears in the terminal ouput matches the analytical (EMP or XANES) value. The use of three decimals for logfO2 is encouraged.
+
+Then, to find fS2 from dissolved S-amounts, please manually change the input logfS2 value until the calculated amount of dissolved sulfur that appears in the terminal ouput matches the analytical value for the given redox conditions. Again, the use of three decimals for logfS2 is suggested for ppm-level precision.

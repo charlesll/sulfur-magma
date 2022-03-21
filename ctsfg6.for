@@ -1,6 +1,5 @@
-      PROGRAM CTSFG6v0
-* **** versione 5 ottobre 2021
-* MASTER PER ROBERTO ===> CHECK PARTW !
+      PROGRAM CTSFG6
+* **** versione 21 marzo 2022
 * based on the simplified polymeric approach of
 * Ottonello et al. (2001) and Moretti (2005)
 * for the evaluation of redox conditions
@@ -986,19 +985,12 @@ c Calcolo delv assumendo espansione termica = 0.
       delv0=delv0*0.1/(8.3147*2.303)
       delv0=delv0*(pbar(i)-1)/tkelv(i)
 c INSERISCO I LAST VALUES
-c      partw=10.**(-6.2274+7947.29/tkelv(i)-delv0)
-c      partw=1.18e38
-c       partw=10**(3001.6/tkelv(i)-1.7419-delv0)
-c      partw=10**(3696.9/tkelv(i)-3.147-delv0)
-c     partw=10**(4679.34/tkelv(i)-3.81613-delv0)
-c      partw=10**(7727.019164/tkelv(i)-5.969157)
-c      partw=10**(607.514123515489/tkelv(i)-1.05834853820627)
-       partwa=-2.89964871774198
-      partwb=1371.16508083715
-       sann=0.218216405605124d-3
-c       sann=0.
-      partw=10.**(partwa+partwb/tkelv(i)+0.5*sann*(pbar(i)-1.))
-cbbbb       partw=10**(-440.261/tkelv(i)+0.-delv0)
+c  change with respect to from Moretti 2005; as in Moretti and Ottonello (2005); no sann
+c In future to be implemented as in Moretti et al. (2014)
+       partwa=0.
+      partwb=-440.261
+       sann=0.
+      partw=10.**(partwa+partwb/tkelv(i)+0.5*sann*(pbar(i)-1.)-delv0)
 c      partw=10.**(38.)
       ratius=(aossi(i)/ah(i))/partw
       xoh(i)=xcat0(i)*ratius/(ratius+1)
@@ -1876,7 +1868,7 @@ c     rapmed=rapmed/ncomp
 
       write (isyspu,*)'T(K) P(bar) logfO2(in) logfO2(calc) logfS2 aossi
      $ TotAni TotCat nO= nO- nO0 NBO/T Kpol Stot(obs,wt%) Stot(calc,wt%)  
-     $S_as_S2-(wt%)  S_as_S6+(wt%) S6+/tot log(KSO4/KS2)  Redox  Redoz 
+     $  S_as_S2-(wt%)  S_as_S6+(wt%) S6+/tot log(KSO4/KS2)  Redox  Redoz 
      $actFe2+ cost_FeO kflag'
 
 c     do 1235 ik= -10,3
@@ -2548,7 +2540,7 @@ c      if (i.eq.ncomp) pause
      &wec,redox(i),redoz(i),afe2(i),petra(i),kflag(i)
 
       if (poss(i,13).eq.0.or.kir(i).eq.1) goto 1234
-c      sann=0.218216405605124d-3
+
       sann=0.
       cost22=1/10.**(partwa+partwb/tkelv(i)+0.5*sann*(pbar(i)-1.))
       freeox=aozzi(i)*totali(i)
@@ -2571,8 +2563,8 @@ c      if (ohtrue.lt.0.) ohtrue=0.
 c     pause
 123   format (f8.2,f7.0,x,6(f10.7,x))
 497   format (f8.2,f7.0,x,27(f11.7,x),i3)
-965   format (13f12.6,x,f10.4,x,3(d11.6,x),f12.6,x,2(f12.6,x),
-     &14(f10.6,x))
+965   format (13f12.6,x,f11.4,x,3(d13.6,x),f14.6,x,2(f14.6,x),
+     &14(f12.6,x))
 9655  format (f8.2,x,f10.3,x,21f12.6,x,i3)
 
 901   format (2x,i3,4f15.6,x,f7.2,x,f7.0)
